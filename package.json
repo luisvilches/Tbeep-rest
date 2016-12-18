@@ -1,0 +1,44 @@
+{
+  "name": "tbeep-rest",
+  "version": "0.0.1",
+  "description": "API restful para la app Tbeep, consulta de saldo, lugares de recarga, recorridos y paraderos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/luisvilches/tbeep-rest.git"
+  },
+  "keywords": [
+    "tbeep",
+    "Tbeep",
+    "luisvilches",
+    "luis",
+    "vilches",
+    "tarjeta",
+    "bip",
+    "bip",
+    "transporte",
+    "publico",
+    "chile",
+    "Chile",
+    "micro",
+    "bus"
+  ],
+  "author": "Luis Andres Vilches Abarca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisvilches/tbeep-rest/issues"
+  },
+  "homepage": "https://github.com/luisvilches/tbeep-rest#readme",
+  "dependencies": {
+    "bip": "^2.0.1",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.3",
+    "request": "^2.79.0",
+    "transantiago-client": "^1.0.2"
+  }
+}
